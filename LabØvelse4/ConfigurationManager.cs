@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LabØvelse4
+﻿namespace LabØvelse4
 {
     internal class ConfigurationManager
     {

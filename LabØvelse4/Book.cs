@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LabØvelse4
+﻿namespace LabØvelse4
 {
     public class Book
     {
         public string Title { get; set; }
         public string Author { get; set; }
         public int PublishedYear { get; set; }
+
+        public Book(string Title)
+        {
+            this.Title = Title;
+        }
     }
 }
