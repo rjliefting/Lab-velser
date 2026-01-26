@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace LabØvelse4
 {
-    internal class UserAccount
+    public class UserAccount
     {
+        public string Username { get; private set; }
+        private string Password ;
+
+        public void EditPassword(string NewPassword)
+        {
+            Password = NewPassword;
+        }
     }
 }
